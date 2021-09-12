@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    @@include('./shared/meta.html')
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body class="body">
+    <div class="login">
+        <form class="login-wrapper">
+            <div class="login-content">
+                <picture>
+                    <img src="/images/logo-image-big.png" alt="">
+                </picture>
+                <h1>Login</h1>
+                <p>Welcome, Please enter login information and click Login button.</p>
+                <div class="mb-3 login-item">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter an email">
+                </div>
+                <div class="mb-3 login-item">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-large btn-primary mb-4">Login</button>
+                <a href="/">Forgot your password?</a>
+            </div>
+        </form>
+        <picture>
+            <img src="/images/login-image.png" alt="">
+        </picture>
+    </div>
+</body>
+
+</html>

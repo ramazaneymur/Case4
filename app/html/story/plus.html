@@ -1,0 +1,25 @@
+<section class="plus container @@class">
+    @@if (context.head) {
+    <h3>@@head</h3>
+    }
+    <div class="plus-inner">
+        @@if (context.link1) {
+        <a href="@@link1" class="plus-item">
+            <p>@@link1name</p>
+            <i class="icon-link-arrow-right"></i>
+        </a>
+        }
+        @@if (context.link2) {
+        <a href="@@link2" class="plus-item">
+            <p>@@link2name</p>
+            <i class="icon-link-arrow-right"></i>
+        </a>
+        }
+        @@if (context.link3) {
+        <a href="@@link3" class="plus-item">
+            <p>@@link3name</p>
+            <i class="icon-link-arrow-right"></i>
+        </a>
+        }
+    </div>
+</section>

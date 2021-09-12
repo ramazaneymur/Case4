@@ -1,0 +1,112 @@
+// @import "rem";
+// @import "mixin";
+@import "font.css";
+@import "choices";
+@import "bootstrap/bootstrap.scss";
+@import "varaible";
+// @import "animate.css";
+
+*:focus,
+*:hover {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  //height: -webkit-fill-available;
+  // @include rem-baseline(75%);
+
+  // @media (min-width: 992px) {
+  //   @include rem-baseline(52.21%);
+  // }
+
+  // @media (min-width: 1200px) {
+  //   @include rem-baseline(63.15%);
+  // }
+
+  // @media (min-width: 1300px) {
+  //   @include rem-baseline(68.4%);
+  // }
+
+  // @media (min-width: 1400px) {
+  //   @include rem-baseline(73.6%);
+  // }
+
+  // @media (min-width: 1500px) {
+  //   @include rem-baseline(79%);
+  // }
+
+  // @media (min-width: 1600px) {
+  //   @include rem-baseline(84.2%);
+  // }
+
+  // @media (min-width: 1700px) {
+  //   @include rem-baseline(89.5%);
+  // }
+
+  // @media (min-width: 1800px) {
+  //   @include rem-baseline(95%);
+  // }
+
+  // @media (min-width: 1900px) {
+  //   @include rem-baseline(100%);
+  // }
+
+  // @media (min-width: 2000px) {
+  //   @include rem-baseline(104%);
+  // }
+
+  // @media (min-width: 2100px) {
+  //   @include rem-baseline(110.5%);
+  // }
+
+  // @media (min-width: 2200px) {
+  //   @include rem-baseline(115.7%);
+  // }
+
+  // @media (min-width: 2300px) {
+  //   @include rem-baseline(121%);
+  // }
+
+  // @media (min-width: 2400px) {
+  //   @include rem-baseline(126.3%);
+  // }
+
+  // @media (min-width: 2500px) {
+  //   @include rem-baseline(131.5%);
+  // }
+
+  // @media (min-width: 2600px) {
+  //   @include rem-baseline(136.8%);
+  // }
+
+  // @media (min-width: 2700px) {
+  //   @include rem-baseline(142.1%);
+  // }
+
+  // @media (min-width: 2800px) {
+  //   @include rem-baseline(147.36%);
+  // }
+
+  // @media (min-width: 2900px) {
+  //   @include rem-baseline(152.6%);
+  // }
+
+  // @media (min-width: 3000px) {
+  //   @include rem-baseline(157.8%);
+  // }
+}
+
+body {
+  font-family: var(--fontFamily);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: var(--colorSecondary);
+  font-size: 16px;
+  width: 100%;
+}
